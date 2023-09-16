@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary: #168CCF;
+  --secondary: #BFC214;
+  --text: #494747;
+  --White: white;
+}
+
+p {
+  margin: 0;
+}
+
+.blue-btn {
+  color: var(--White);
+  background-color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.blue-btn:hover{
+  background-color: #104564;
+}
+
+.green-btn {
+  color: var(--White);
+  background-color: var(--secondary);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.green-btn:hover{
+  background-color: #73740d;
+}
+
+/* NavBar Style */
+
+.hamburger-inner, 
+.hamburger-inner:after, 
+.hamburger-inner:before, 
+.hamburger.is-active 
+.hamburger-inner, 
+.hamburger.is-active 
+.hamburger-inner:after, 
+.hamburger.is-active 
+.hamburger-inner:before {
+  width: 30px;
+  height: 2px;
+  background-color: var(--primary);
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.request--quote {
+  max-width: 200px;
+}
+
+.contact--info {
+  background-color: var(--primary);
+  color: var(--White)
+}
+
+.social--medias i {
+  cursor: pointer;
+}
+
+.hero--section {
+  background: linear-gradient(#168bcfb8, #168bcfb8),
+  url('https://images.crowdspring.com/blog/wp-content/uploads/2023/06/28162522/how-to-start-a-cleaning-business-hero.png');
+  height: 88vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.hero--section h1 {
+  font-size: 2rem;
+}
+
+.card--section {
+  position: relative;
+  top: -45px;
+  z-index: 1;
+}
+
+
+
+.about--title p {
+  color: var(--primary);
+}
+
+.about--content {
+  background-color: #0f2f42;
+  color: var(--White);
+}
+
+.about--list i {
+  color: var(--primary);
+}
+
+.offer-main-title p {
+  color: var(--primary);
+}
+
+.offer--card {
+  border-bottom: 4px solid var(--primary);
+  transition: all 0.3s ease-in-out;
+}
+
+.offer-title i {
+  color: var(--secondary);
+}
+
+.offer--card:hover {
+  background-color: var(--primary);
+  cursor: pointer;
+  color: white;
+}
+
+.call--to--action {
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('https://images.pexels.com/photos/1367272/pexels-photo-1367272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+}
+
+.icons--footer i {
+  background-color: var(--primary);
+  color: var(--White);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons--footer i:hover {
+  background-color: var(--secondary);
+}
+
+.other--pages i {
+  font-size: 10px;
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.other--pages li {
+  cursor: pointer;
+}
+
+.sub--title {
+  color: var(--primary);
+}
+
+.new--letter input {
+  outline: none;
+  text-indent: 5px;
+  border: 1px solid lightgray;
+}
+
+.footer--btn {
+  background-color: var(--secondary);
+}
+
+/*Responsive Tablet */
+@media (min-width: 768px) {
+  .hero--section h1 {
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+  }
+
+  .hero--section p {
+    font-size: 1.2rem;
+  }
+
+  .hero--content {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .call--action--content {
+    width: 700px;
+  }
+}
+
