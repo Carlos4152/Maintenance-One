@@ -1,4 +1,4 @@
-# Maintenance One
+# Maintenance One 📁
 
 [![Bootstrap-Project.png](https://i.postimg.cc/wxZfqvc8/Bootstrap-Project.png)](https://postimg.cc/V59B4zVD)
 
@@ -7,6 +7,7 @@
 Maintance one is a website that already exist, but the design is completly different. I decided to re-design the home page of the website to practice Bootstrap v5.3 and responsive design. 
 
 Original website: [link](https://www.maintenance-one.com/)
+View Project: [URL](https://carlos4152.github.io/Maintenance-One/)
 
 ## SKILL USED
 
